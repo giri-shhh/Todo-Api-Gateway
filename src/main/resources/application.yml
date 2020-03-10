@@ -1,6 +1,6 @@
 spring:
   application:
-    name: Todo API Gateway
+    name: todo-api-gateway
 server:
   port: 8765
 eureka:

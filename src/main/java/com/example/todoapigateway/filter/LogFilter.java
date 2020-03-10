@@ -30,7 +30,8 @@ public class LogFilter extends ZuulFilter {
     }
 
     @Override
-    public Object run() {
+    public Object run()
+    {
         HttpServletRequest request = RequestContext.getCurrentContext().getRequest();
         logger.info("Request -> {}, Request URI -> {}", request, request.getRequestURI());
         return null;

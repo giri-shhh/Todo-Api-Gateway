@@ -1,6 +1,8 @@
 spring:
   application:
     name: todo-api-gateway
+  zipkin:
+    baseUrl: http://zipkin-server:9411
 
 server:
   port: 8765
